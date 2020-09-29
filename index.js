@@ -10,6 +10,7 @@ let whatsThis = () => location.href = "whatsThis.html";
 
 let homeMenu = () => location.href = "index.html";
 
+let contactLoad = () => location.href = "contact.html";
 $(function() {
     $('body').removeClass('fade-out');
 });

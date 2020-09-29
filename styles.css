@@ -1,28 +1,53 @@
 .btn{
-    
+    margin: 15px;
+    cursor: pointer;
 }
 
+.fab{
+  margin: 15px;
+  cursor: pointer;
+}
+
+.fas{
+  margin: 15px;
+}
+
+
+.bouncing {
+    
+  animation-duration: 3s;
+  animation-name: bouncing;
+  animation-iteration-count: infinite;
+  font-size: 2em;
+}
 
 @keyframes bouncing {
     
     50% {
       animation-timing-function: cubic-bezier(0.755, 0.050, 0.655, 0.060);
-      transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -10px, 0);
     }
 
   }
+
+.slideIn{
+  animation-duration: 2s;
+  animation-name: slideIn;
+  animation-iteration-count: 1;
+  font-size: 2em
+}
+
+@keyframes slideIn{
+  20%{
+    animation-timing-function: cubic-bezier(0.075, 0.050, 0.655, 0.060);
+    transform: translate3d(0, -3px,  0);
+  }
+}
   
 .outsideDiv{
   margin-top: 150px;
 }
 
-.bouncing {
-    
-    animation-duration: 3s;
-    animation-name: bouncing;
-    animation-iteration-count: infinite;
-    font-size: 2em;
-  }
 
 
   body {

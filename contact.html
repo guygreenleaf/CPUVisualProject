@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en" class = "bg-dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPU Visualizer</title>
+    <title>contact</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7abefb3fca.js" crossorigin="anonymous"></script>
 </head>
 <body class = "bg-dark">
     <script>document.body.className += ' fade-out';</script>
-    
-    <div class = "d-flex-column">
-    <h1 class = "fadeIt text-white ">Welcome! :) I hope you enjoy this project!</h1>
- 
-    <h1 class = "fadeSecond text-white">Please choose from one of the following options</h1>
-    </div>
-    <!-- d-flex justify-content-center -->
+
+
+
     <div class = "d-flex justify-content-center outsideDiv">
-        <div class = "d-flex justify-content-center bouncing" >
-        <button type="button"onclick = "whatsThis()" class="btn btn-secondary btn-lg btn-dark border">What is this?</button>
-        <button type="button" onclick = "startLoad()" class="btn btn-secondary btn-lg btn-dark border">Start</button>
-        <button type="button" onclick = "contactLoad()" class="btn btn-secondary btn-lg btn-dark border">Contact</button>
+        <i class="fab fa-linkedin-in fa-5x" style= "color: Dodgerblue" onclick="window.location.href='https://www.linkedin.com/in/guy-greenleaf-6b9a75183/'"></i>
+        <i class="fab fa-github fa-5x" style="color: Mediumslateblue;" onclick="window.location.href='https://github.com/guygreenleaf'"></i>
+        <a class="fas fa-envelope fa-5x" style="color: Tomato;" href="mailto:guygreenleaf@icloud.com"></a>
+
+    </div>
+
+    <div class = "d-flex justify-content-center outsideDiv">
+        <div class = "d-flex justify-content-center slideIn" >
+            <button type="button" onclick = "homeMenu()" class="btn btn-secondary btn-lg btn-dark border">Back</button>
+ 
         </div>
     </div>
 
+      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
