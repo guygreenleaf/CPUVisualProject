@@ -1,5 +1,5 @@
 .btn{
-    margin-bottom: 25%;
+    
 }
 
 
@@ -12,8 +12,12 @@
 
   }
   
+.outsideDiv{
+  margin-top: 150px;
+}
+
 .bouncing {
-    position: absolute;
+    
     animation-duration: 3s;
     animation-name: bouncing;
     animation-iteration-count: infinite;
@@ -41,29 +45,26 @@ p{
 .fadeIt{
   font-family: "Courier";
   font-size: 20px;
-  white-space: nowrap;
   overflow: hidden;
   text-align: center;
   margin-top: 5%;
   width:100%;
-  animation: type 5s steps(900, end); 
+  animation: type 4s steps(700, end); 
 }
 .fadeSecond{
     font-family: "Courier";
     font-size: 20px;
-    white-space: nowrap;
     overflow: hidden;
     text-align: center;
     margin-top: 5%;
-    width:100%;
-    animation: type 6s steps(900, end);
+    width: 100%;
+    animation: type 3s steps(700, end);
 }
 
 
 @keyframes type{
-  from { width: 90%; }
+  from { width: 95%;}
 } 
-
 
 
 ​#test{

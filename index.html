@@ -10,23 +10,19 @@
 <body class = "bg-dark">
     <script>document.body.className += ' fade-out';</script>
     
+    <div class = "d-flex-column">
     <h1 class = "fadeIt text-white ">Welcome! :) I hope you enjoy this project!</h1>
-    
  
     <h1 class = "fadeSecond text-white">Please choose from one of the following options</h1>
-
-    <div class = "fixed-bottom text-center bouncing" >
-    <button type="button"onclick = "whatsThis()" class="btn btn-secondary btn-lg btn-dark border">What is this?</button>
-    <button type="button" onclick = "startLoad()" class="btn btn-secondary btn-lg btn-dark border">Start</button>
-    <button type="button" class="btn btn-secondary btn-lg btn-dark border">Contact</button>
     </div>
-
-
-
-
-
-
-
+    <!-- d-flex justify-content-center -->
+    <div class = "d-flex justify-content-center outsideDiv">
+        <div class = "d-flex justify-content-center bouncing" >
+        <button type="button"onclick = "whatsThis()" class="btn btn-secondary btn-lg btn-dark border">What is this?</button>
+        <button type="button" onclick = "startLoad()" class="btn btn-secondary btn-lg btn-dark border">Start</button>
+        <button type="button" class="btn btn-secondary btn-lg btn-dark border">Contact</button>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js"></script>
